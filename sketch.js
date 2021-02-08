@@ -24,17 +24,17 @@ function preload() {
 }
 
 function setup(){
-    createCanvas(680,400);
+    createCanvas(700,500);
     
-    ground = createSprite(340, 200);
+    ground = createSprite(350, 250);
     ground.addImage("groundImg", groundImg);
     ground.scale = 0.7;
 
-    cat = createSprite(500, 340, 20, 100);
+    cat = createSprite(600, 400, 20, 100);
     cat.addAnimation("catImg1", catImg1);
     cat.scale = 0.1;
 
-    mouse = createSprite(200, 340, 10, 40);
+    mouse = createSprite(200, 400, 10, 40);
     mouse.addAnimation("mouseImg", mouseImg);
     mouse.scale = 0.1;
 
