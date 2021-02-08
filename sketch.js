@@ -44,7 +44,7 @@ function draw() {
 
    // console.log(tom.x - jerry.x);
 
-    background(rgb(30, 100, 220));
+    background("white");
 
 if (cat.x - mouse.x < cat.width / 2 - mouse.width / 2) {
         cat.velocityX = 0;
